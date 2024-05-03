@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/numUm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira um número"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/numDois"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira outro número"
+        android:minHeight="48dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Calcular"
+        android:text="Calcular"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_resp"
+        android:minHeight="48dp"/>
+
+</LinearLayout>
